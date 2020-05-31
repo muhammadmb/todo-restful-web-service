@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://muhammadmb.github.io")
+@CrossOrigin(origins = {"http://localhost:4200", "https://muhammadmb.github.io"})
 
 public class controller {
 
